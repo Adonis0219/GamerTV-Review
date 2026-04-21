@@ -1,7 +1,7 @@
 using System.Diagnostics;
 using UnityEngine;
 
-public class c_Example : MonoBehaviour
+public class c_Ex : MonoBehaviour
 {
     Stopwatch stopwatch = new Stopwatch();
 
