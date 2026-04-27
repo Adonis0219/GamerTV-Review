@@ -13,7 +13,7 @@ public class c_Ex6 : MonoBehaviour
 
         int b = (int)a; // 명시적 형변환
         Debug.Log(b);
-
+         
         int c = 128;
         Debug.Log(c);
 
