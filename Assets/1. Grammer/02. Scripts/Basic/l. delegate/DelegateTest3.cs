@@ -13,6 +13,7 @@ public class DelegateTest3 : MonoBehaviour
         Do(_testDelegate);    // 델리게이트를 매개변수로 전달
     }
 
+    // 델리게이트는 '타입'이기 때문에 매개변수로 전달할 수 있다.
     void Do(TestDelegate del)   // 델리게이트를 매개변수로 받는 함수
     {
         del();  // 매개변수로 받은 델리게이트 호출
