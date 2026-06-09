@@ -41,7 +41,7 @@ public class DelegateTest12 : MonoBehaviour
     }
 
     void Test(object o, EventArgs e)
-    {
+    { 
         TestArgs testArgs = e as TestArgs;
         if (testArgs != null)
         {
