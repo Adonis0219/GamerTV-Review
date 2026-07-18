@@ -700,8 +700,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 578fd77ecb854ea45bef4df64957fe8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Factory.FactoryTest1
-  slimeFac: {fileID: 0}
-  turtleFac: {fileID: 0}
+  slimeFac: {fileID: 1400790912}
+  turtleFac: {fileID: 893694656}
   bt1: {fileID: 951141802}
   bt2: {fileID: 758058462}
 --- !u!4 &1252822366
