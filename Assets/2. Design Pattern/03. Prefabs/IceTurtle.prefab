@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 5052034629743512364}
   - component: {fileID: 7682985858523429415}
   - component: {fileID: 4210794007457291869}
+  - component: {fileID: -83866278163105628}
   m_Layer: 0
-  m_Name: Turtle
+  m_Name: IceTurtle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67,7 +68,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 15b4affa0239858458fd1384951d5c1e, type: 2}
+  - {fileID: 2100000, guid: 2e0f96af342a61b43a5a98dba18f2704, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -111,3 +112,15 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-83866278163105628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3051277745046720685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc8e8524ab9820043bcd6e3dd7c6dbd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Factory.IceTurtle

@@ -516,7 +516,7 @@ GameObject:
   - component: {fileID: 893694655}
   - component: {fileID: 893694656}
   m_Layer: 0
-  m_Name: TurtleFactory
+  m_Name: IceFactory
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -546,10 +546,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 893694654}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b546d5f83bf0b2840a93609ae25307c8, type: 3}
+  m_Script: {fileID: 11500000, guid: 361409098f6133944bdfc5402cc5c687, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Factory.TurtleFactory
-  turtle: {fileID: 3051277745046720685, guid: a0a5db0ea4fd958439b14328424d533a, type: 3}
+  m_EditorClassIdentifier: Assembly-CSharp::Factory.IceDungeonFactory
+  iceSlime: {fileID: 5314110144802624698, guid: c7a7b4efdc756c54ab2cb9bb91d76eb7, type: 3}
+  iceTurtle: {fileID: -83866278163105628, guid: 9327a8214c5e62741a4914e0c04dd5fe, type: 3}
 --- !u!1 &951141800
 GameObject:
   m_ObjectHideFlags: 0
@@ -680,7 +681,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1252822366}
-  - component: {fileID: 1252822365}
+  - component: {fileID: 1252822367}
   m_Layer: 0
   m_Name: BaseFactory
   m_TagString: Untagged
@@ -688,22 +689,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1252822365
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1252822364}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 578fd77ecb854ea45bef4df64957fe8e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Factory.FactoryTest1
-  slimeFac: {fileID: 1400790912}
-  turtleFac: {fileID: 893694656}
-  bt1: {fileID: 951141802}
-  bt2: {fileID: 758058462}
 --- !u!4 &1252822366
 Transform:
   m_ObjectHideFlags: 0
@@ -721,6 +706,22 @@ Transform:
   - {fileID: 893694655}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1252822367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252822364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ebd5e00deb614b984e7bde06cbdf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Factory.FactoryTest4
+  slimeFac: {fileID: 0}
+  turtleFac: {fileID: 0}
+  bt1: {fileID: 0}
+  bt2: {fileID: 0}
 --- !u!1 &1400790910
 GameObject:
   m_ObjectHideFlags: 0
@@ -732,7 +733,7 @@ GameObject:
   - component: {fileID: 1400790911}
   - component: {fileID: 1400790912}
   m_Layer: 0
-  m_Name: SlimeFactory
+  m_Name: FireFactory
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -762,10 +763,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1400790910}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d436ceeb9a8d27f4c9e80bd4c1a81108, type: 3}
+  m_Script: {fileID: 11500000, guid: fd5bedec77be4464facfb07074493235, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Factory.SlimeFactory
-  slime: {fileID: 1793589737136198797, guid: c7a7b4efdc756c54ab2cb9bb91d76eb7, type: 3}
+  m_EditorClassIdentifier: Assembly-CSharp::Factory.FireDungeonFactory
+  fireSlime: {fileID: 1060975824415607318, guid: 82e08163277bc0144aadc6a10d8b7587, type: 3}
+  fireTurtle: {fileID: -1364326293146422541, guid: a0a5db0ea4fd958439b14328424d533a, type: 3}
 --- !u!1 &1401979481
 GameObject:
   m_ObjectHideFlags: 0
